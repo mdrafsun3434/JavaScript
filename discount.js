@@ -38,14 +38,15 @@ function discountedPrice(quantity){
             const second100Total = 100 * second100Price;
             const remainingQuantity = quantity - 200;
             const remainingTotal =remainingQuantity * third200Price;
-            const total = first100Price + second100Price + remainingTotal;
+            const total = first100Total + second100Total + remainingTotal;
             return total;
         }
         
-        const totalPrice2 = discountedPrice2(250);
+      
+
+    }
+
+      const totalPrice2 = discountedPrice2(250);
         console.log(totalPrice2);
 
         
-
-    }
-    
